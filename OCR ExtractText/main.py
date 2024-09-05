@@ -6,7 +6,7 @@ def extract_text(image_path):
     # Open the image using PIL
     img = Image.open(image_path)
     
-    # Extract text from image using pytesseract
+    # Extract text from image using pytesseract libeaet
     extracted_text = pytesseract.image_to_string(img)
     
     return extracted_text
